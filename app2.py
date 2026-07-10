@@ -13,7 +13,7 @@ def load_model(model_path):
     return YOLO(model_path)
 
 # 모델 경로 (깃헙 리포지토리 기준 상대 경로로 설정)
-MODEL_PATH = "_myWork/model/best.pt"
+MODEL_PATH = "model/best.pt"
 
 try:
     model = load_model(MODEL_PATH)
