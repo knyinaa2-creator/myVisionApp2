@@ -1,5 +1,11 @@
+# streamlit
+# ultralytics
+# opencv-python-headless
+# Pillow
+# numpy
+
 streamlit
+pillow
 ultralytics
-opencv-python-headless
-Pillow
 numpy
+google-generativeai
