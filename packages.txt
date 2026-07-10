@@ -1,1 +1,4 @@
 libgl1-mesa-glx
+libglib2.0-0
+shared-mime-info
+freeglut3-dev
