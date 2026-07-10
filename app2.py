@@ -45,7 +45,7 @@ def analyze_with_gemini(detected_items, api_key):
         3. 필요한 경우 주의사항이나 권장 행동
         """
         
-        # 서버 호환성이 가장 좋은 gemini-1.5-flash 모델 사용
+        # 서버 호환성이 가장 좋은 gemini-2.5-flash 모델 사용
         model = genai.GenerativeModel('gemini-2.5-flash')
         response = model.generate_content(prompt)
         return response.text
