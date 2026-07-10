@@ -46,7 +46,7 @@ def analyze_with_gemini(detected_items, api_key):
         """
         
         # 서버 호환성이 가장 좋은 gemini-1.5-flash 모델 사용
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         response = model.generate_content(prompt)
         return response.text
     except Exception as e:
