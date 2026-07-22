@@ -1,5 +1,7 @@
 streamlit
-pillow
 ultralytics
+Pillow
 numpy
 google-generativeai
+torch
+torchvision
